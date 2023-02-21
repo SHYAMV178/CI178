@@ -1,3 +1,0 @@
--hosts: test
- tasks:
-   -shell: docker run -itd --name testcon -p 8080:80 newimg
