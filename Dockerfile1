@@ -1,4 +1,0 @@
-FROM centos:7
-RUN echo " Docker Test" > /tmp/testfile
-EXPOSE 80
-CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
