@@ -1,0 +1,6 @@
+---
+- hosts: test
+  tasks:
+  become: true
+    - name: create new container
+      shell: docker container run -itd --name mydockercontainer -p 9000:80 shyam178/docker-project2
