@@ -1,6 +1,5 @@
 ---
 - hosts: test
-  become: true
   tasks:
     - name: create new container
-      shell: docker container run -itd --name mytestcontainer -p 9000:80 shyam178/job1
+      shell: sudo docker container run -itd --name mytestcontainer -p 9000:80 shyam178/job1
